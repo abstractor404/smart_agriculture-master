@@ -1,0 +1,11 @@
+{
+    "idf.port": "/dev/ttyUSB0",
+    "idf.adapterTargetName": "esp32s2",
+    "idf.openOcdConfigs": [
+        "board/esp32s2-bridge.cfg"
+    ],
+    "idf.portWin": "COM12",
+    "files.associations": {
+        "dht11.h": "c"
+    }
+}

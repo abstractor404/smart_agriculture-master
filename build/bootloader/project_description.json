@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Espressif/frameworks/esp-idf/components/bootloader/subproject",
+    "build_dir":          "D:/51-STM-ESP-GD/ESP/ESP32/ESP32-S2/smart_agriculture-master/build/bootloader",
+    "config_file":        "D:/51-STM-ESP-GD/ESP/ESP32/ESP32-S2/smart_agriculture-master/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.5",
+    "target":             "esp32s2",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "199",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Espressif/frameworks/esp-idf/components/efuse/Kconfig;C:/Espressif/frameworks/esp-idf/components/esp32s2/Kconfig;C:/Espressif/frameworks/esp-idf/components/esp_common/Kconfig;C:/Espressif/frameworks/esp-idf/components/esp_hw_support/Kconfig;C:/Espressif/frameworks/esp-idf/components/esp_system/Kconfig;C:/Espressif/frameworks/esp-idf/components/freertos/Kconfig;C:/Espressif/frameworks/esp-idf/components/hal/Kconfig;C:/Espressif/frameworks/esp-idf/components/log/Kconfig;C:/Espressif/frameworks/esp-idf/components/newlib/Kconfig;C:/Espressif/frameworks/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Espressif/frameworks/esp-idf/components/bootloader/Kconfig.projbuild;C:/Espressif/frameworks/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Espressif/frameworks/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Espressif/frameworks/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Espressif/frameworks/esp-idf/components/bootloader", "C:/Espressif/frameworks/esp-idf/components/bootloader_support", "C:/Espressif/frameworks/esp-idf/components/efuse", "C:/Espressif/frameworks/esp-idf/components/esp32s2", "C:/Espressif/frameworks/esp-idf/components/esp_common", "C:/Espressif/frameworks/esp-idf/components/esp_hw_support", "C:/Espressif/frameworks/esp-idf/components/esp_rom", "C:/Espressif/frameworks/esp-idf/components/esp_system", "C:/Espressif/frameworks/esp-idf/components/esptool_py", "C:/Espressif/frameworks/esp-idf/components/freertos", "C:/Espressif/frameworks/esp-idf/components/hal", "C:/Espressif/frameworks/esp-idf/components/log", "C:/Espressif/frameworks/esp-idf/components/bootloader/subproject/main", "C:/Espressif/frameworks/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/Espressif/frameworks/esp-idf/components/newlib", "C:/Espressif/frameworks/esp-idf/components/partition_table", "C:/Espressif/frameworks/esp-idf/components/soc", "C:/Espressif/frameworks/esp-idf/components/spi_flash", "C:/Espressif/frameworks/esp-idf/components/xtensa", "" ]
+}
